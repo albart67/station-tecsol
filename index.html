@@ -12,14 +12,17 @@ body {
     height: 100vh;
     font-family:  Arial, Helvetica, sans-serif;
     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;   
     background: url('panneau solaires.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; /*quand on reduit l'image reste centré*/
+}
+	
+section {
+	display: flex;
+	justify-content: center;
+    	align-items: center;
 }
 	
 .logoHautGauche {
@@ -34,11 +37,11 @@ body {
 </style>
 <body>
 	<div class="logoHautGauche">
-		<h1>Agrandissez la fenêtre pour accèder à la carte </h1>
-	<div>
-  
-  <iframe src="https://www.google.com/maps/d/embed?mid=1NR5DLt1CbY1j57c8i6nmiqh7elRcWiU&ehbc=2E312F" width="640" height="480"></iframe>
+		<h3>Agrandissez la fenêtre pour accèder à la carte </h3>
 	</div>
+  <section>
+  <iframe src="https://www.google.com/maps/d/embed?mid=1NR5DLt1CbY1j57c8i6nmiqh7elRcWiU&ehbc=2E312F" width="640" height="480"></iframe>
+	</section>
 </body>
 
 </html>
